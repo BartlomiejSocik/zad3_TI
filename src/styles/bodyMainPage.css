@@ -1,0 +1,63 @@
+.container {
+  height: calc(100vh - 4rem);
+  background: url('../../public/jpg/tlo.jpg') no-repeat fixed center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  height: 40vh;
+  width: 30vw;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  -webkit-box-shadow: 4px 8px 24px 0px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 4px 8px 24px 0px rgba(66, 68, 90, 1);
+  box-shadow: 4px 8px 24px 0px rgba(66, 68, 90, 1);
+}
+
+.form-box {
+  height: 100%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.input-box {
+  font-size: 1.3rem;
+}
+
+.btn-submit {
+  border: none;
+  color: white;
+  font-weight: bold;
+  background-color: rgba(0, 0, 112, 0.836);
+  padding: 0.3rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-yacht {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 0.3rem 0.5rem;
+  background-color: rgb(52, 164, 255);
+}
+
+.disabled-btn {
+  opacity: 0.3;
+}
+
+button {
+  font-size: 1.2rem;
+}
+
+input {
+  font-size: 1.2rem;
+}
